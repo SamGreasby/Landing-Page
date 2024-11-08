@@ -14,9 +14,27 @@ button, .action-section {
 
 /* Header Section */
 
+header {
+padding-top: 16px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 0 16px;
 }
 
 li, .header-subtext {
