@@ -4,77 +4,78 @@
     <meta charset="UTF-8">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-   <div class="header">
-       <div class="top-header">
-       <div class="header-logo">
-           Header Logo
-       </div>
-   <div class="right-side">
-       <ul class="Header-Links">
-           <li><a href="#">Header Link One</a></li>
-           <li><a href="#">Header Link Two</a></li>
-           <li><a href="#">Header Link Three</a></li>
-       </ul>
-   </div>
-           </div>
-       <div class="lower-header">
-          <div class="lower-header-hero">
-              <h1>This website is awesome</h1>
-              </div>
-           <div class="hero-secondary"></div>
-              This website has some subtext goes here under the main title. It's a smaller font and the color is lower contrast
-              <button>Sign Up!</button>
-           <img src="images/Placeholder-Image.png" alt="Placeholder Image">
-       </div>
-   </div>
+<header class="header">
+    <nav class="nav">
+        <div class="header-logo">
+            Header Logo
+        </div>
+        <ul class="header-links">
+            <li>header link one</li>
+            <li>header link two</li>
+            <li>header link three</li>
+        </ul>
+    </nav>
+    <div class="header-content">
+        <div class="header-information">
+            <p>This website is awesome</p>
+            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button>Sign up</button>
 
-       <div class="Some-Information">
-           <h2>Some random Information</h2>
-           <div class="Cards">
-               <div class="card">
-                   <img src="images/Placeholder-Image.png" alt="Placeholder Image">
-                   This is some subtext under an illustration image
-               </div>
-               <div class="card">
-                   <img src="images/Placeholder-Image.png" alt="Placeholder Image">
-                   This is some subtext under an illustration image
-               </div>
-               <div class="card">
-                   <img src="images/Placeholder-Image.png" alt="Placeholder Image">
-                   This is some subtext under an illustration image
-               </div>
-               <div class="card">
-                   <img src="images/Placeholder-Image.png" alt="Placeholder Image">
-                   This is some subtext under an illustration image
-               </div>
-       </div>
-   </div>
-
-   <div class="Quote-Section">
-<div class="quote">
-    This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know
-    is that it looks nice.
-    <div class="QuoteAuthor">
-        -Thor, God of Thunder
+        </div>
     </div>
-</div>
-   </div>
+</header>
 
-<div class="lower-section">
-    <div class="Action">
-        Call to action! It's time!
+<section class="Information-section">
+    <h1 class="Information-section-heading">Some random information.</h1>
+    <div class="cards">
+        <div class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            this is some subtext under an illustration or image
+        </div>
+        <div class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            this is some subtext under an illustration or image
+        </div>
+        <div class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            this is some subtext under an illustration or image
+        </div>
+        <div class="card">
+            <img class="card" src="images/Placeholder-Image.png" alt="This is a placeholder image">
+            this is some subtext under an illustration or image
+        </div>
     </div>
-    <div class="Sign-Up">
-        Sign up for our product by clicking that button right over there!
-    </div>
-    <button>Sign up</button>
-</div>
+</section>
 
-<div class="footer">
-Copyright &copy; The Odin Project 2021
-</div>
+<section class="Quote-Section">
+    <div class="Quote-content">
+        <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
+        <h2 class="quote-author">-Thor, God of Thunder</h2>
+    </div>
+</section>
+
+<section class="action-section">
+    <div class="action-content">
+        <div class="action-text">
+            <h2 class="action-heading">Call to action! It's time!</h2>
+            <p class="action-text">Sign up for our product by clicking that buttong right over there!</p>
+    </div>
+        <button>Sign up</button>
+    </div>
+</section>
+
+<footer>
+    <div class="footer">
+        Copyright &copy; The Odin Project 2021
+    </div>
+</footer>
+
 </body>
 </html>
