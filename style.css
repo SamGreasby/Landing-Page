@@ -2,6 +2,7 @@
 font-family: Roboto, sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 header, footer {
@@ -14,39 +15,88 @@ button, .action-section {
 
 /* Header Section */
 
-header {
-padding-top: 16px;
+.header {
+    color: white;
+    padding-top: 16px;
 }
 
 .nav {
+    width: 1080px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    margin: 0 auto;
 }
 
 .header-logo {
+    color: #f9faf8;
     font-size: 24px;
-    color: #F9FAF8;
 }
 
+.header-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
 li {
-    list-style: none;
-    text-decoration: none;
-    display: inline;
-    margin: 0 16px;
-}
-
-li, .header-subtext {
+    color: #E5E7EB;
     font-size: 18px;
-    color: #F9FAF8;
 }
-
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0;
+    width: 1080px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header-information {
+    width: 480px;
+}
+button {
+    color: white;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+.placeholder-image {
+    width: 480px;
+}
 .header-text {
+    color: #f9faf8;
     font-size: 48px;
-    color: #F9FAF8;
     font-weight: 900;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Information Section */
 
