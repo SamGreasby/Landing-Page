@@ -64,6 +64,7 @@ button {
 }
 .placeholder-image {
     width: 480px;
+    border: none;
 }
 .header-text {
     color: #f9faf8;
@@ -95,42 +96,19 @@ button {
 }
 
 .card {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
 }
 
 img {
-    border-radius: 8px;
-    border: 5px solid #3882F6;
+    border-radius: 12px;
+    border: 3px solid #3882F6;
 }
 
 figcaption {
     text-align: center;
+    color: #1F2937
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Quote Section */
 
@@ -149,6 +127,19 @@ figcaption {
     font-weight: bold;
     text-align: end;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Call to Action Section */
 
