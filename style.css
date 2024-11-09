@@ -118,15 +118,14 @@ img {
 
 figcaption {
     text-align: center;
-    color: #1F2937
+    color: #6C757EFF;
 }
 
 /* Quote Section */
 
 .Quote-Section {
     background-color: #E5E7EB;
-    display: flex;
-    margin: 120px 0;
+    margin: 80px auto;
 }
 
 .Quote-content {
@@ -154,7 +153,8 @@ figcaption {
 
 .action-section {
     border-radius: 12px;
-    margin: 120px 120px;
+    width: 1080px;
+    margin: 0 auto 86px;
 }
 .action-content {
     display: flex;
