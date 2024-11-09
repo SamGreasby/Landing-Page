@@ -65,6 +65,7 @@ button {
 .placeholder-image {
     width: 480px;
     border: none;
+    border-radius: 0;
 }
 .header-text {
     color: #f9faf8;
@@ -113,14 +114,25 @@ figcaption {
 /* Quote Section */
 
 .Quote-Section {
-    background-color: #E5E7EB
+    background-color: #E5E7EB;
+    display: flex;
+    margin: 120px 0;
+}
+
+.Quote-content {
+    flex-wrap: wrap;
+    padding: 120px 0;
+    width: 1080px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1F2937
+    color: #1F2937;
+    width: 1080px;
 }
 
 .quote-author {
@@ -128,20 +140,24 @@ figcaption {
     text-align: end;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Call to Action Section */
+
+.action-section {
+    border-radius: 12px;
+    margin: 120px 120px;
+}
+.action-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 40px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text {
+    color: #E5E7EB;
+}
 
 /* Footer */
 
